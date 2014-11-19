@@ -13,7 +13,7 @@ def connect():
         irc = socket(AF_INET, SOCK_STREAM)
         irc.connect((host, port))
     except serror:
-        print("Server offline :(")
+        print("Server offline")
 
 connect()
 while True:

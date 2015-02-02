@@ -162,7 +162,7 @@ def makescreen():
     # DRAW BALL
     global BALLX
     global BALLY
-    pygame.draw.cserverle(DISPLAYSURFACE, WHITE, (BALLX, BALLY), 3, 0)
+    pygame.draw.circle(DISPLAYSURFACE, WHITE, (BALLX, BALLY), 3, 0)
     BALLX = BALLX + BALLHSPEED
     BALLY = BALLY + BALLVSPEED
 
